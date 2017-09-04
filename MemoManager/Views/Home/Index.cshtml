@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<style>
+
+
+</style>
+
+<div class="jumbotron">
+    <h1>Mémos manager</h1>
+    <p class="lead">Gestion des mémos</p>
+
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Bienvenu dans la gestion des mémos</h2>
+        <p>
+            Dans cette applications vous pourrez crée des mémos ainsi que gerer les différent atribution de ce memo
+        </p>
+     <br />
+        <div class="row"> 
+            <div class="col-md-5" style="height:300px;"><a class="btn btn-default" href="@Url.Action("Index", "Memos")" style="background-color:#2ecc71;width:100%;height:100%;padding:30%;font-size:20px;color:white;" role="button">Partie Responsable</a></div>
+            <div class="col-md-2"></div>
+            <div class="col-md-5" style="height:300px;"><a class="btn btn-default" href="@Url.Action("IndexDev", "Memos")" style="background-color:#2980b9;width:100%;height:100%;padding:30%;font-size:20px;color:white;" role="button">Partie Developpeur</a></div>
+        </div>
+
+
+
+    </div>
+
+
+</div>

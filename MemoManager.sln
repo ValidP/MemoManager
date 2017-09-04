@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoManager", "MemoManager\MemoManager.csproj", "{06537270-244D-486F-B773-1F5AD66F006C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL2", "..\DAL2\DAL2\DAL2.csproj", "{2AEB04E9-0622-44E1-ACAB-164EC267E134}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06537270-244D-486F-B773-1F5AD66F006C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06537270-244D-486F-B773-1F5AD66F006C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06537270-244D-486F-B773-1F5AD66F006C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06537270-244D-486F-B773-1F5AD66F006C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AEB04E9-0622-44E1-ACAB-164EC267E134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AEB04E9-0622-44E1-ACAB-164EC267E134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AEB04E9-0622-44E1-ACAB-164EC267E134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AEB04E9-0622-44E1-ACAB-164EC267E134}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

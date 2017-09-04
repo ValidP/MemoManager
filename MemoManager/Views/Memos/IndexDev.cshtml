@@ -1,0 +1,79 @@
+﻿@model IEnumerable<DAL2.Memo>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+Z
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Contenu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateExecution)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Delai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Etat.Nom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Priorite)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateFin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Personne.Nom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Equipe.NomEquipe)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Categorie.NomCategorie)
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Contenu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateExecution)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Delai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Etat.Nom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Priorite)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateFin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Personne.Nom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Equipe.NomEquipe)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Categorie.NomCategorie)
+        </td>
+
+        <td>
+            @Html.ActionLink("EditDeveloppeur", "EditDeveloppeur", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+        </td>
+    </tr>
+}
+
+</table>
